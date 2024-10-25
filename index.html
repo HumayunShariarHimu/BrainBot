@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BrainBot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BrainBot - A Psychological Bot of Discovery Mind">
+  <meta name="keywords" content="BrainBot,Discovery Mind">
+  <meta name="author" content="Humayun Shariar Himu">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BrainBot" />
+  <meta property="og:description" content="BrainBot - A Psychological Bot of Discovery Mind" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/HumayunShariarHimu/BrainBot/refs/heads/main/BrainBotPreview.jpg" />
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/HumayunShariarHimu/BrainBot/refs/heads/main/favicon.png" />
+  <link rel="stylesheet" href="./brain_bot_style.css">
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet"
+    href="./font_style.css" />
+</head>
+<body>
+  <!-- Chats container -->
+  <div class="chat-container">
+  </div>
+  <!-- Typing container -->
+  <div class="typing-container">
+    <div class="typing-content">
+      <div class="typing-textarea">
+        <textarea id="chat-input" placeholder="Type Your Topic..." rows="1"></textarea>
+        <div class="suggestions-container"></div> <!-- Add this line -->
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+      <div class="typing-controls">
+        <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+        <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+    <script src="./brain_bot_script.js" defer></script>
+</body>
+
+</html>
