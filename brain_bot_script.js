@@ -56,7 +56,7 @@ const setDefaultChatText = () => {
   const defaultText = `<div class="default-text">
     <a class="BrainBot" href="https://humayunshariarhimu.github.io/BrainBot" target="_blank"><img src="https://raw.githubusercontent.com/HumayunShariarHimu/BrainBot/refs/heads/main/favicon.png" alt="BrainBot" width="100px;" height="100px"></a>
                             <h1 class="rainbowText">BrainBot</h1>
-                            <p class="rainbowText">A Psychological Bot of Discovery Mind</p>
+                            <b><p class="rainbowText">A Psychological Bot of Discovery Mind</p></b>
                             <p class="rainbowText">Find Your Psychological Fact By Typing Keyword & Enter the Link to Enjoy on Discovery Mind!</p>
                         </div>`;
 
